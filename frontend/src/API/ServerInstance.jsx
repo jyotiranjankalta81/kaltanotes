@@ -1,6 +1,6 @@
 // const baseURL = 'https://gcms.techjainsupport.co.in/api/'
 // export const baseURL = 'http://localhost:8000/api/'
-export const baseURL = 'http://:16.171.84.88:5000/api/'
+export const baseURL = 'http://16.171.84.88:5000/api/'
 
 let token = ''
 if (localStorage.getItem('token')) {

@@ -3,8 +3,8 @@ import axios from 'axios'
 // export const backendUrl = 'http://localhost:8000/api/'
 // export const imageBacked = 'http://localhost:8000/'
 
-export const backendUrl = 'http://:16.171.84.88:5000/api/'
-export const imageBacked = 'http://:16.171.84.88:5000/'
+export const backendUrl = 'http://16.171.84.88:5000/api/'
+export const imageBacked = 'http://16.171.84.88:5000/'
 
 // export const backendUrl = "https://gcms.techjainsupport.co.in/api/";
 // export const imageBacked = "https://gcms.techjainsupport.co.in/";

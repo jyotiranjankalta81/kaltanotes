@@ -8,7 +8,7 @@ const initialState = {
     loading: false,
     error: false,
     message: "",
-    userdetalis:null
+    userdetalis: null
 }
 
 export const userLogin = createAsyncThunk('authentication/login', async (data, { rejectWithValue }) => {
@@ -16,11 +16,12 @@ export const userLogin = createAsyncThunk('authentication/login', async (data, {
         let response = await serverInstance('user/login', 'POST', data.data)
         return response
     } catch (err) {
+        console.log('loginerror', err)
         return rejectWithValue(err.response.data)
     }
 })
 
-export const getuserdetails = createAsyncThunk('main/userdetails', async (data,{ rejectWithValue }) => {
+export const getuserdetails = createAsyncThunk('main/userdetails', async (data, { rejectWithValue }) => {
     try {
         let response = await serverInstance('main/userdetails', 'GET');
         return response
@@ -107,5 +108,5 @@ export const selectAuthToken = (state) => state.auth?.token?.access?.token
 export const selectUserRole = (state) => state.auth.role
 export const selectuserDetails = (state) => state.auth.userdetalis
 
-export const { resetAuthNotification,getuserdetailsAction } = authenticationSlice.actions;
+export const { resetAuthNotification, getuserdetailsAction } = authenticationSlice.actions;
 export default authenticationSlice.reducer;
