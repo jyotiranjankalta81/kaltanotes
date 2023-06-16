@@ -1,0 +1,163 @@
+.addusercontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2%;
+}
+.addusercontainer .adminbody {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    
+}
+
+.addusercontainer .adminbody .adminnavbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    padding: 1% 2%;
+    background: #AECB80;
+
+}
+
+.addusercontainer .adminbody .adminnavbar span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.addusercontainer .adminbody .adminnavbar h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.addusercontainer .adminbody .adminnavbar svg {
+    width: 3.75;
+    height: 3.75;
+}
+
+.addusercontainer .adminbody .adduser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 5%;
+
+}
+
+.addusercontainer .adminbody .adduser .buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.addusercontainer .adminbody .adduser .buttons a .adduserbtn:hover {
+    
+    background: #AAB7CB;
+    color: #000000;
+  
+}
+
+ .adduserbtn1 {
+    width: 12rem;
+    background: #AFCC81;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    padding: 5% 2%;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+
+.addusercontainer .adminbody .adduser .buttons a .viewbtn1 {
+    width: 12rem;
+    background: #AFCC81;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    padding: 5% 2%;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.addusercontainer .adminbody .adduser .buttons a .viewbtn:hover {
+
+    background: #AAB7CB;
+    color: #000000;
+
+}
+
+.addusercontainer .adminbody .adduser .addbtn {
+    margin-right: 45%;
+
+    width: 12rem;
+    background: #9296AF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    padding: 1% 2%;
+    white-space: nowrap;
+
+
+}
+
+.addusercontainer .adminbody .adduser .inputfields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.addusercontainer .adminbody .adduser .inputfields label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: start;
+    color: #000000;
+    margin-bottom: 2%;
+
+}
+
+.addusercontainer .adminbody .adduser .inputfields input {
+    width: 42.75rem;
+    height: 2.68rem;
+    border: 2px solid #557097;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width:770px) {
+
+    .addusercontainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 2%;
+    }
+}

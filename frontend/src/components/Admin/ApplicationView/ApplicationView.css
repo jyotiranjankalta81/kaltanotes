@@ -1,0 +1,10 @@
+.application-view-page{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.application-view-page .applicant-details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}

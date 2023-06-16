@@ -1,0 +1,41 @@
+
+.status_head{
+    text-align: left;
+    font-size: 2rem;
+    color: #9DC164;
+}
+.process{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    color: #9DC164;
+}
+.status_cir{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.cir1{
+    width: 29%;
+    height: .2rem;
+    background: #827B7B;
+    
+    
+}
+.dot1{
+ width: 1rem;
+ height: 1rem;
+ background: #827B7B;
+ border-radius: 50%;
+ 
+}
+.dot2{
+    background: #9DC164;
+
+}

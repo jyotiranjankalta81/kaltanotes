@@ -1,0 +1,205 @@
+.Blog-N-S{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.blag-New-Sec{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        padding: 6rem;
+        margin-top: 0rem;
+}
+.Blog-N-S .para1{
+        text-align: justify;
+        display: flex;
+        text-align: justify;
+        align-items: center;
+        align-content: center;
+        font-family: 'Volkhov', serif;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 8rem;
+        margin-top: -8rem;  
+        font-family: 'Varela Round', sans-serif; 
+        text-align: center;
+}
+.Blog-N-S .para2{
+    text-align: justify;
+    font-family: 'Volkhov', serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8rem;
+    margin-top: -15rem;
+    font-family: 'Varela Round', sans-serif;
+}
+.Blog-N-S .para3{
+    text-align: justify;
+    font-family: 'Volkhov', serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8rem;
+    margin-top: -15rem;
+    font-family: 'Varela Round', sans-serif;
+}
+.Blog-N-S .para4{
+    text-align: justify;
+    font-family: 'Volkhov', serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8rem;
+    margin-top: -15rem;
+    font-family: 'Varela Round', sans-serif;
+}
+.Blog-N-S .para5{
+    text-align: justify;
+    font-family: 'Volkhov', serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8rem;
+    margin-top: -15rem;
+    font-family: 'Varela Round', sans-serif;
+}
+.Bloggg-pic {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 4rem;
+    margin-top: -6rem;
+    margin-left: 9rem;
+}
+
+.Bloggg-pic-N-Section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.Bloggg-pic-N-Section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    flex-wrap: wrap;  
+}
+.Bloggg-pic-N { 
+    width: 20%;
+}
+
+.Bloggg-pic-N .B1 {
+    width: 60%; 
+}
+.B11{
+    font-family: 'Varela Round', sans-serif;
+}
+
+@media screen and (max-width: 770px) {
+    .blag-New-Sec {
+        padding: 3rem;
+        margin-top: 11rem;
+    }
+    .Blog-N-S .para1 {
+        padding: 4rem;
+        margin-top: -6rem;
+    }
+    .Blog-N-S .para2{
+        padding: 4rem;
+        margin-top: -6rem;
+    }
+    .Blog-N-S .para3 {
+        padding: 4rem;
+        margin-top: -6rem;
+    }
+    .Blog-N-S .para4 {
+        padding: 4rem;
+        margin-top: -6rem;
+    }
+    .Blog-N-S .para5{
+        padding: 4rem;
+        margin-top: -6rem;
+    }
+    .Bloggg-pic {
+        margin-left: 4rem;
+        margin-top: -2rem;
+    }
+    
+    .Bloggg-pic-N-Section{
+        gap: 2rem;
+    }
+    .B11{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .blag-New-Sec {
+        padding: 1.5rem;
+        margin-top: 3rem;
+    }
+    .Blog-N-S .para1 {
+        padding: 2rem;
+        margin-top: -2rem;
+        font-size: 16px;
+        font-family: 'Varela Round', sans-serif;
+    }
+    .Blog-N-S .para2 {
+        padding: 2rem;
+        margin-top: -2rem;
+        font-size: 16px;
+        font-family: 'Varela Round', sans-serif;
+    }
+    .Blog-N-S .para3 {
+        padding: 2rem;
+        margin-top: -2rem;
+        font-size: 16px;
+        font-family: 'Varela Round', sans-serif;
+    }
+    .Blog-N-S .para4 {
+        padding: 2rem;
+        margin-top: -2rem;
+        font-size: 16px;
+        font-family: 'Varela Round', sans-serif;
+    }
+    .Blog-N-S .para5 {
+        padding: 2rem;
+        margin-top: -2rem;
+        font-size: 16px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    .Bloggg-pic-N-Section .B1 {
+        width: 39%;
+        margin-right: 4%;
+    }
+    .Bloggg-pic-N-Section .B2 {
+        width: 39%;
+        margin-right: 4%;
+    }
+    .Bloggg-pic-N-Section .B3 {
+        width: 39%;
+        margin-right: 4%;
+    }
+    .Bloggg-pic-N-Section .B4 {
+        width: 39%;
+        margin-right: 4%;
+    }
+    .Bloggg-pic-N {
+        width: 40%; 
+    }
+    .B11{
+        font-size: 1.1rem;
+    }
+    .Bloggg-pic-N .B1 {
+        width: 80%;
+        
+    }
+    .Bloggg-pic-N-Section{
+        margin-bottom: 3rem;
+    }
+
+   
+
+}

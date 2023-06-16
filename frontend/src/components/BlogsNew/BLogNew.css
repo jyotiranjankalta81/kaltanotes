@@ -1,0 +1,252 @@
+.heading_BlogN {
+  margin-bottom: 5rem;
+  font-family: 'Varela Round', sans-serif;
+}
+.Our_linee {
+    position: absolute;
+    width: 10%;
+    height: 0.25rem;
+    background: #9dc164;
+    border-radius: 0.5rem;
+    margin-top: -4rem;
+    margin-left: -5%;
+}
+.Blog1_PicN-Section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+   
+}
+.Blog1_PicN-Section img {
+    width: 167%;
+    margin-left: 26%;
+}
+.Blog1_PicN-Section .Calendar1_BlogN {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    margin-right: 19%;
+    font-family: 'Kanit', sans-serif;
+}
+.Blog1_PicN-Section p {
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    color: black;
+    text-align: justify;
+    margin-left: 35%;
+    width: 52%;
+}
+.Calendar1_BlogN-div {
+    margin-left: 10%;
+}
+.Calendar2_BlogN{
+    color: rgba(0, 0, 0, 0.5);
+}
+.Blog1_PicN-Section .Btn1 {
+    background: #9DC164;
+    height: 2.5rem;
+    width: 15%;
+    border-radius: 10px;
+    color: white;
+    margin-right: 16%;
+    border: none;
+}
+.Blog2_PicN-Section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.Blog2_PicN-Section .Blog2_PicN {
+    margin-right: -17%;
+    width: 100%;
+}
+.Calendar2_BlogN-div {
+    text-align: justify;
+    margin-left: 15%;
+}
+/* .Calendar2_BlogN-div h1 {
+    color: rgba(0, 0, 0, 0.5);
+} */
+.Calendar2_BlogNe {
+    margin-left: 10%;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Calendar2_BlogN-div .paragraph3_BlogN {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    width: 54%;
+}
+.Calendar2_BlogN-div .paragraph5_BlogN {
+    font-family: 'Kanit', sans-serif;
+    font-size: 19px;
+    width: 87%;
+}
+.paragraph3_BlogNe{
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    width: 54%;
+    margin-left: 10%;
+}
+.paragraph5_BlogNe{
+    font-family: 'Kanit', sans-serif;
+    font-size: 19px;
+    margin-left: 10%;
+    width: 76%;
+}
+.Btn1-n{
+    background: #9DC164;
+    height: 2.5rem;
+    width: 30%;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.Btn1-New{
+    background: #9DC164;
+    height: 2.5rem;
+    width: 30%;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10%;
+    border: none;
+    
+}
+.Blog2_PicN-Section-new {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+@media screen and (max-width: 770px) {
+    
+    .Blog1_PicN-Section {
+        display: flex;
+        flex-direction: column;
+
+        width: 50%;
+        margin-left: -3%;
+    }
+    .Blog1_PicN-Section .Calendar1_BlogN {
+        margin-right: 24%; 
+    }
+    .Blog1_PicN-Section p {
+        text-align: justify;
+        margin-left: 21%;
+        width: 173%;
+    }
+    .Blog1_PicN-Section .Btn1 {
+        width: 44%;
+    }
+    .Blog2_PicN-Section-new {
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid black; */
+        margin-bottom: 7rem;
+    }
+    .Blog2_PicN-Section .Blog2_PicN {
+        width: 100%;
+        margin-right: 2.5rem;
+        padding: 35px;
+    }
+    .Calendar2_BlogN-div {
+        text-align: justify;
+        margin-left: 10%;
+    }
+    .Blog2_PicN-Section {
+        margin-top: 4rem;
+    }
+    .Calendar2_BlogNe {
+        margin-left: 1%;
+    }
+    .paragraph3_BlogNe {
+        width: 60%;
+        margin-left: 1%;
+    }
+    .paragraph5_BlogNe {
+        margin-left: 1%;
+        width: 84%;
+    }
+    .Btn1-New {
+        margin-left: 1%;
+    }
+    .Blog2_PicN-Section-new {
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .heading_BlogN {
+        margin-bottom: 5rem;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 19px;
+    }
+    .Our_linee {
+        width: 17%;
+        margin-left: -9.5%;
+    }
+    .Blog1_PicN-Section .Calendar1_BlogN {
+        margin-right: -5%;
+        font-size: 18px;
+    }
+    .Blog1_PicN-Section p {
+        text-align: justify;
+        margin-left: 21%;
+        width: 171%;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 16px;
+    }
+    .Blog1_PicN-Section .Btn1 {
+        width: 89%;
+        margin-left: 20%;
+    }
+    .Btn1-New {
+        margin-left: 1%;
+        width: 43%;
+    }
+    .Blog2_PicN-Section .Blog2_PicN {
+        margin-top: -4rem;
+    }
+    .Calendar2_BlogN {
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 18px;
+        margin-top: -1rem;
+        margin-left: 0rem;
+    }
+    .Calendar2_BlogN-div .paragraph3_BlogN {
+        font-size: 16px;
+        width: 85%;
+        font-family: 'Varela Round', sans-serif;
+    }
+    .Calendar2_BlogN-div .paragraph5_BlogN {
+        font-size: 16px;
+        width: 87%;
+        font-family: 'Varela Round', sans-serif;
+    }
+    .Btn1-n {
+        height: 2.5rem;
+        width: 47%;
+    }
+    .Calendar2_BlogNe {
+        margin-left: 1%;
+        margin-top: -1rem;
+        font-size: 18px;
+    }
+    .paragraph3_BlogNe {
+        width: 84%;
+        margin-left: 1%;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 16px;
+    }
+    .paragraph5_BlogNe {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 16px;
+        width: 89%;
+        margin-left: 0rem;
+    }
+    .Blog2_PicN-Section-new{
+        margin-bottom: 2.5rem;
+    }
+}

@@ -1,0 +1,35 @@
+import React from 'react'
+import AdminSidebar from '../AdminSideBar/AdminSidebar'
+import AdminNavbar from '../AdminNavbaar/AdminNavbar'
+import AdminApp from '../AdminApp/AdminApp'
+import './View1.css'
+
+function View1 () {
+  return (
+    <div className='addusercontainer'>
+      <div className='adminbody'>
+        <AdminApp />
+        <div className='status'>
+          <h1 className='status_head'>Status</h1>
+          <div className='process'>
+            <div className='pro1'>Processing Order</div>
+            <div className='pro1'>Awaiting Consent</div>
+            <div className='pro1'>Notes Applied</div>
+            <div className='pro1'>Completed</div>
+          </div>
+          <div className='status_cir'>
+            <span className='dot1 dot2'></span>
+            <div className='cir1 cir2'></div>
+            <span className='dot1'></span>
+            <div className='cir1'></div>
+            <span className='dot1'></span>
+            <div className='cir1'></div>
+            <span className='dot1'></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default View1

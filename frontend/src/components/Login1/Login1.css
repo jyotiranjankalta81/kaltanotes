@@ -1,0 +1,148 @@
+.login1_container {
+    width: 100%;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.lohinleft {
+    width: 50%;
+    /* border: 2px solid black; */
+    height: 100%;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding-left: 5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+.lohinleft h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-size: 3.1rem;
+    line-height: 3.6rem;
+    color: #000000;
+}
+
+.login_para {
+    font-size: 1.5rem;
+    color: #04040440;
+    width: 60%;
+
+}
+
+.login_label {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.login_input {
+    width: 80%;
+    border: 3px solid #9DC164;
+    height: 2rem;
+}
+
+.login_checkbox {
+    /* border: 2px solid beige; */
+    margin-bottom: 1rem;
+}
+
+.login_checkbox label {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.login1_btn {
+    width: 20%;
+    padding: .5rem;
+    font-size: 1rem;
+    color: white;
+    background: #9DC164;
+    border-radius: .3rem;
+    border: none;
+
+}
+
+.lohinleft .forgot {
+    font-size: 1rem;
+    color: #9DC164;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 1rem;
+}
+
+.acount {
+    font-size: 1rem;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 1rem;
+}
+
+.acount a {
+    color: #9DC164;
+}
+
+.login_right {
+    width: 50%;
+    background: #F7FAF3;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_right h1 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.login_right img {
+    width: 60%;
+}
+
+@media only screen and (max-width:821px) {
+    .login1_container {
+        flex-direction: column;
+    }
+
+    .lohinleft {
+        width: 100%;
+    }
+
+    .login_right {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+}
+@media only screen and (max-width:450px)
+{
+   .lohinleft{
+    padding-left: 2rem;
+   }
+   .lohinleft h1 {
+    font-size: 2rem;
+    /* border: 2px solid black; */
+   }
+   .login_para{
+    width: 90%;
+    /* border: 2px solid black; */
+    margin-top: 0;
+    font-size: 1.2rem;
+   }
+   .login_label{
+    font-size: 1.2rem;
+   }
+   .login_input{
+    width: 90%;
+   }
+   .login1_btn{
+    width: 25%;
+   }
+   .login_right h1{
+    font-size: 1.5rem;
+   }
+}

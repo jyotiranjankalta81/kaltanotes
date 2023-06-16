@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ba731061.css",
+    "main.js": "/static/js/main.2015cdbb.js",
+    "static/js/787.6acf4098.chunk.js": "/static/js/787.6acf4098.chunk.js",
+    "static/media/GCMS1.png": "/static/media/GCMS1.c5fab247ac8b6078227b.png",
+    "static/media/service.png": "/static/media/service.f9cafa06a347a2298ccd.png",
+    "static/media/GCMS2.png": "/static/media/GCMS2.a0fd5c3afa99e4ebe9be.png",
+    "static/media/GCMS3.png": "/static/media/GCMS3.5479b1219828ffa3efd0.png",
+    "static/media/Services_Footer.png": "/static/media/Services_Footer.83410cd5366d09cc223e.png",
+    "static/media/footer_bg.png": "/static/media/footer_bg.5856dda9bf95c170e6a8.png",
+    "static/media/Services_Font_p.png": "/static/media/Services_Font_p.99c7c360260ec24e60bb.png",
+    "static/media/thumbnail.png": "/static/media/thumbnail.65bb37b4cabaa770439a.png",
+    "static/media/Services_A2.png": "/static/media/Services_A2.180789602255122904ac.png",
+    "static/media/Services_A3.png": "/static/media/Services_A3.b3ede2fca166435399ac.png",
+    "static/media/Services_A1.png": "/static/media/Services_A1.12bec62e216b0798e55a.png",
+    "static/media/Group 10.png": "/static/media/Group 10.484904a53228e4732ca0.png",
+    "static/media/s_img.png": "/static/media/s_img.9b8e1d017ed37e6affd3.png",
+    "static/media/partner.png": "/static/media/partner.eb7c61d01c9dcbb53726.png",
+    "static/media/semicircle2.png": "/static/media/semicircle2.b69966007bceb15cb629.png",
+    "static/media/order.png": "/static/media/order.33d9bb34de95c8753d72.png",
+    "static/media/cir.png": "/static/media/cir.dfb80a1ed2230392c39e.png",
+    "static/media/circle.png": "/static/media/circle.dfb80a1ed2230392c39e.png",
+    "static/media/service-semi-circle.png": "/static/media/service-semi-circle.dfb80a1ed2230392c39e.png",
+    "static/media/login.png": "/static/media/login.9d4e985e32a9d86c1746.png",
+    "static/media/Services_ima_div.png": "/static/media/Services_ima_div.3f16c8db6913d8b8f9bd.png",
+    "static/media/register.svg": "/static/media/register.d0fb1df5f84258feb7acc7cd47abb18e.svg",
+    "static/media/Vector 14.png": "/static/media/Vector 14.e76f53d1ffd9a945a05a.png",
+    "index.html": "/index.html",
+    "main.ba731061.css.map": "/static/css/main.ba731061.css.map",
+    "main.2015cdbb.js.map": "/static/js/main.2015cdbb.js.map",
+    "787.6acf4098.chunk.js.map": "/static/js/787.6acf4098.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba731061.css",
+    "static/js/main.2015cdbb.js"
+  ]
+}

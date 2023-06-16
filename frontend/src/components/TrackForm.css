@@ -1,0 +1,104 @@
+.track_details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: "auto";
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2%;
+}
+.tracksection {
+  width: 90%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.track_table {
+  width: 80%;
+  height: auto;
+}
+
+.tracksection h2 {
+  margin: 0%;
+}
+
+.Extension {
+  display: flex;
+  flex-direction: column;
+}
+
+.status {
+  width: 100%;
+  height: auto;
+}
+
+.status_cir1 {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-top: 1rem;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.status_cir2 {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.cir5 {
+  width: 8rem;
+  height: 0.3rem;
+  background: #d9d9d9;
+}
+
+.cir6 {
+  background: #29ff1663;
+}
+
+.dot5 {
+  width: 50%;
+  height: 1.8rem;
+  background: #d9d9d9;
+  color: #16a809;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot6 {
+  background: #29ff1663;
+}
+
+.dot7 {
+  width: 7%;
+  height: 1.5rem;
+  background: #da1919b8;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.dot8 {
+  background: #29ff1663;
+  color: #16a809;
+}

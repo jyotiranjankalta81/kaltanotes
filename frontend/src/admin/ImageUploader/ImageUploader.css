@@ -1,0 +1,48 @@
+.image-uploader {
+    border: 3px dashed #9DC164;
+    border-radius: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 2% 0%;
+    
+}
+
+.image-uploader-drag {
+    border: 2px solid #F7701D;
+}
+
+.image-uploader span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    padding: 0% 4%;
+}
+
+.image-uploader .image-uploader-icon {
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.image-uploader .image-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.image-uploader .file-preview {
+    height: 7rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .image-uploader .image-uploader-icon {
+        width: 3rem;
+    }
+
+    .image-uploader span {
+        font-size: 0.9rem;
+    }
+}

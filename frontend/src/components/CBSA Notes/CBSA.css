@@ -1,0 +1,51 @@
+.padding_top{
+  padding-top: 0rem;
+  /* border: 2px solid black; */
+  width: 45%;
+   /* border: 2px solid black; */
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   margin-top: 1rem;
+   
+}
+input[type="date"]::before { 
+	content: attr(data-placeholder);
+	width: 100%;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+   height: 40px;
+  width: 25px;
+  padding: 0px;
+  margin-top:20px;
+  margin-right: .5rem;
+ 
+
+}
+.s1_img img{
+  /* border: 2px solid black; */
+  width: 42%;
+}
+@media only screen and (max-width:821px)
+{
+  .padding_top{
+    width: 85%;
+    /* border: 2px solid black; */
+    padding-top: 0rem;
+  }
+  .s1_img img{
+    /* border: 2px solid black; */
+    width: 80%;
+  }
+}
+@media only screen and (max-width:421px){
+  .padding_top{
+    width: 95%;
+    margin-left: 2rem;
+  } 
+  .s1_img img{
+    /* border: 2px solid black; */
+    width: 80%;
+  }
+}

@@ -1,0 +1,142 @@
+.Regsiter_parent {
+    width: 100%;
+    display: flex;
+    margin-top: 6rem;
+}
+
+.form_container {
+    width: 50%;
+    height: 100%;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    /* border: 2px solid black; */
+    padding-left: 5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.form_container form{
+   
+}
+.register_heading
+{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-size: 3.1rem;
+    line-height: 3.6rem;
+    color: #000000;
+}
+.form_container form {
+    font-family: 'Varela Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.form_container form input{
+    width: 85%;
+    border: 3px solid #9dc164;
+    height: 3rem;
+    margin: 1rem 0;
+    
+}
+
+.check_label{
+    font-size: 1rem;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+.checkbox_div .check{
+    width: 3%;
+}
+.checkbox_div {
+    display: flex;
+    /* border: 2px solid black; */
+    height: 100%;
+}
+.register_btn{
+    width: 20%;
+    padding: .6rem;
+    background: #9DC164;
+    border-radius: .2rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Varela Round', sans-serif;
+}
+.img_container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50%;
+    height: auto;
+    background: #F7FAF3;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding-top: 6rem;
+
+
+}
+.Hello_again{
+    /* border: 2px solid black; */
+    font-size: 2rem;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+.reg_pic{
+     /* border: 2px solid black; */
+     width: 50%;
+}
+
+@media only  screen and (max-width:821px)
+{
+    .Regsiter_parent{
+        flex-direction: column;
+    }
+    .form_container{
+        width: 100%;
+    }
+    .img_container{
+        width: 100%;
+    }
+}
+
+@media only  screen and (max-width:450px)
+{
+    .form_container{
+        padding-left: 2rem;
+    }
+
+    .register_heading{
+        font-size: 2rem;
+    }
+    .form_container form{
+        font-size: 1rem;
+    }
+    .form_container form input{
+        height: 2rem;
+        width: 90%;
+    }
+    .checkbox_div .check{
+        width: 4%;
+    }
+    .register_btn{
+        font-size: .95rem;
+        width: 30%;
+    }
+    .img_container{
+        padding-top: 0rem;
+        padding: 2rem;
+    }
+    .Hello_again{
+        font-size: 1.5rem;
+    }
+    .Regsiter_parent{
+        margin-top: 4rem;
+    }
+
+}

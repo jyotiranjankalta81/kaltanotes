@@ -1,0 +1,198 @@
+.primary{
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+    flex-direction: row;
+    margin-top: 8rem;
+    justify-content: center;
+}
+.primary_left{
+    width: 45%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.primary_right
+{
+   width: 45%;
+   /* border: 2px solid black; */
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content:end;
+   padding-top: 4rem;
+}
+.primary_left h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.5rem;
+    /* border: 2px solid black; */
+    margin-top: 0;
+    font-weight: 400;
+}
+.primary_left form{
+    text-align: left;
+    /* border: 2px solid black; */
+    width: 100%;
+}
+.p_lable{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #827B7B;
+}
+.p_input{
+    width: 80%;
+    height: 2.2rem;
+    margin: 1rem 0;
+    border: 3px solid #9DC164
+}
+.r_input{
+    width: 80%;
+    height: 2.2rem;
+    /* margin: 1rem 0; */
+    border: 3px solid #9DC164;
+   
+    
+}
+.radio_conatiner label{
+  color: black;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+.Spouce{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    justify-content: center;
+}
+.spouse_left{
+    width: 45%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.s_textarea{
+    width: 80%;
+    border: 3px solid #9DC164;
+    margin-top: 2rem;
+}
+.spouse_left h1
+{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.spouse_left form{
+    width: 100%;
+    text-align: left;
+}
+.spouce_right{
+    width: 45%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* border: 2px solid black; */
+}
+.spouce_img{
+    
+    width: 70%;
+    height: 60%;
+    margin-top: 1rem;
+}
+.spouce_img img{
+    width: 100%;
+    height: 100%;
+}
+.spouce_btn {
+    /* border: 2px solid black; */
+    text-align: left;
+    padding-left: 5rem;
+}
+.spouce_btn button{
+    width: 10%;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    padding: .5rem;
+    background: #9DC164;
+    color: white;
+    border: none;
+    border-radius: .2rem;
+    font-size: 1rem;
+}
+
+@media only  screen and (max-width:821px)
+{
+    .primary{
+        flex-direction: column;
+        align-items: center;
+    }  
+    .primary_left{
+        width: 85%;
+        
+        
+    }
+    .primary_right{
+        width: 85%;
+        /* border: 2px solid black; */
+        padding-top: 0rem;
+    }
+    .p_input,.r_input{
+        width: 90%;
+    }
+
+    .Spouce{
+        flex-direction: column;
+        align-items: center;
+    }
+    .spouse_left,.spouce_right{
+        width: 85%;
+    }
+    .s_textarea{
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    .spouce_btn button{
+        width: 20%;
+    }
+
+}
+@media only screen and (max-width:420px)
+{
+    .primary_left,.primary_right{
+        width: 95%;
+        margin-left: 2rem;
+    }
+    .spouse_left,.spouce_right{
+        width: 95%;
+        margin-left: 2rem;
+    }
+    .primary_left h1
+    {
+        font-size: 2rem;
+    }
+    .primary{
+        margin-top: 7rem;
+    }
+    .p_lable{
+        font-size: 1rem;
+    }
+    .p_input{
+        height: 2rem;
+    }
+    .radio_conatiner label{
+        font-size: 1rem;
+    }
+    .spouse_left h1{
+        font-size: 2rem;
+    }
+    .spouce_btn{
+        padding-left: 2rem;
+    }
+    .spouce_btn button{
+        width: 25%;
+    }
+}
+

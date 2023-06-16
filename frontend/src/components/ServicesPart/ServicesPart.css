@@ -1,0 +1,171 @@
+.title--primary{
+    border-bottom: 4px solid #9dc164;
+    padding: 0.5rem;
+    width: max-content;
+    margin: auto;
+}
+.service-wrapper{
+    padding: 2rem 0;
+    position: relative;
+}
+.service-wrapper .circle-design{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.services-part{
+    display: grid;
+    grid-template-columns: repeat(4,max-content);
+    grid-template-areas: 'part1 nil nil part4''nil2 part2 part3 nil3';
+    grid-gap: 3rem;
+    margin: auto;
+    width: max-content;
+    margin-top: 8rem;
+}
+.part1{
+    grid-area: part1;
+    position: relative;
+}
+.part2{
+    grid-area: part2;
+    position: relative;
+}
+.part3{
+    grid-area: part3;
+    position: relative;
+    transform: rotate(-4deg);
+}
+.part4{
+    grid-area: part4;
+    position: relative;
+}
+.service-selector{
+    width: 4rem;
+}
+.service-selector-wrapper{
+    cursor: pointer;
+}
+.part1 .service-selector-wrapper{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-70%,-100%);
+}
+
+.part2 .service-selector-wrapper{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-90%,-90%);
+}
+.part3 .service-selector-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotate(4deg) translate(-75%,50%);
+}
+.part4 .service-selector-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(-90%,30%);
+}
+.part4 .service-selector-wrapper-1{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: center;
+    position: absolute;
+    left: auto;
+    bottom: auto;
+    right: 0;
+    top: 0;
+    transform: translate(45%, -88%);
+}
+.service-part--mobile{
+    display: none;
+}
+.service-part-popup{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-popup-container{
+    background: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 30rem;
+    position: relative;
+    text-align: left;
+}
+.service-popup-title{
+    border-bottom: 3px solid #9dc164;
+    padding: 0.5rem;
+}
+.popup-close-icon{
+    font-size: 1.5rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+}
+.service-popup-container li{
+    margin: 1rem 0;
+}
+@media only screen and (max-width: 768px) {
+    .service-wrapper .circle-design {
+        display: none;
+    }
+    .services-part{
+        display: none;
+    }
+    .service-part--mobile{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 2rem 0;
+        padding: 1rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .service-part--mobile{
+        gap: 1rem;
+    }
+    .services--mobile{
+        width: 45%;
+    }
+    .service-popup-container {
+        padding: 1rem;
+        width: 95%;
+    }
+    .service-popup-container li{
+        font-size: 0.9rem;
+    }
+    .service-popup-description{
+        font-size: 0.9rem;
+    }
+    .service-popup-title{
+        font-size: 1.2rem;
+    }
+}

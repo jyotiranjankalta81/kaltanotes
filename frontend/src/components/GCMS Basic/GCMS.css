@@ -1,0 +1,353 @@
+.primary_container{
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5rem;
+}
+.documents {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  /* border: 2px solid black; */
+  height: 1000px;
+}
+.heading_Primary {
+  font-family: "Imprima", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: #000000;
+  /* border: 2px solid black; */
+  width: 100%;
+  text-align: left;
+}
+.Username_GCMS {
+  position: absolute;
+  width: 150px;
+  height: 1.8rem;
+  left: 5.7rem;
+  top: 14rem;
+
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-top: 1.5rem;
+
+  color: #827b7b;
+}
+.input_GCMS_1{
+  box-sizing: border-box;
+  position: absolute;
+  width: 580px;
+  height: 3.1rem;
+  left: 0.25rem;
+  top: 3.2rem;
+  border: 3px solid #9dc164;
+}
+.input_GCMS_2{
+  box-sizing: border-box;
+  position: absolute;
+  width: 580px;
+  height: 3.1rem;
+  left: 0.25rem;
+  top: 3.2rem;
+  border: 3px solid #9dc164;
+}
+input[type="date"]::before { 
+	content: attr(data-placeholder);
+	width: 100%;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+   height: 60px;
+  width: 30px;
+  padding: 0px;
+  margin-top:  27px;
+}
+
+
+.input_GCMS_3{
+  box-sizing: border-box;
+  position: absolute;
+  width: 580px;
+  height: 3.1rem;
+  left: 0.25rem;
+  top: 3.2rem;
+  border: 3px solid #9dc164;
+}
+.input_GCMS_4{
+  box-sizing: border-box;
+  position: absolute;
+  width: 580px;
+  height: 3.1rem;
+  left: 0.25rem;
+  top: 3.2rem;
+  border: 3px solid #9dc164;
+}
+.input_GCMS_5{
+  box-sizing: border-box;
+  position: absolute;
+  width: 580px;
+  height: 3.1rem;
+  left: 0.25rem;
+  top: 3.2rem;
+  border: 3px solid #9dc164;
+}
+.input_GCMS_6{
+  box-sizing: border-box;
+  position: absolute;
+  width: 580px;
+  height: 3.1rem;
+  left: 0.25rem;
+  top: 3.2rem;
+  border: 3px solid #9dc164;
+}
+.input_GCMS_7{
+  box-sizing: border-box;
+  position: absolute;
+  width: 580px;
+  height: 3.1rem;
+  left: 0.25rem;
+  top: 3.2rem;
+  border: 3px solid #9dc164;
+}
+.input_GCMS_8{
+  box-sizing: border-box;
+  position: absolute;
+  width: 580px;
+  height: 3.1rem;
+  left: 0.25rem;
+  top: 3.2rem;
+  border: 3px solid #9dc164;
+}
+.Date_GCMS {
+  position: absolute;
+  width: 155px;
+  height: 29px;
+  left: 92px;
+  top: 393px;
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #827b7b;
+}
+.Email_GCMS {
+  position: absolute;
+  width: 165px;
+  height: 29px;
+  left: 92px;
+  top: 555px;
+
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #827b7b;
+}
+.Spouse_GCMS {
+  position: absolute;
+  width: 125px;
+  height: 46px;
+  left: 92px;
+  top: 680px;
+  font-family: "Imprima", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+
+  color: #000000;
+}
+.Username1_GCMS {
+  position: absolute;
+  width: 150px;
+  height: 1.8rem;
+  left: 5.7rem;
+  top: 780px;
+
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-top: 1.5rem;
+
+  color: #827b7b;
+}
+.Date1_GCMS {
+  position: absolute;
+  width: 155px;
+  height: 29px;
+  left: 92px;
+  top: 960px;
+
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #827b7b;
+}
+
+.GCMS_About {
+  position: absolute;
+  width: 335px;
+  height: 29px;
+  left: 92px;
+  top: 1100px;
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #827b7b;
+}
+.textArea_GCMS {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 580px;
+  height: 186px;
+  left: 92px;
+  top: 1180px;
+
+  border: 3px solid #9dc164;
+}
+.GCMS_Button {
+  position: absolute;
+  width: 211px;
+  height: 48px;
+  left: 92px;
+  top: 1410px;
+  font-family: "Varela Round", sans-serif;
+  color: white;
+  background: #9dc164;
+  border-radius: 8px;
+  
+}
+.Given_GCMS {
+  position: absolute;
+  width: 140px;
+  height: 1.8rem;
+  left: 736px;
+  top: 14rem;
+
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-top: 1.5rem;
+
+  color: #827b7b;
+}
+.Visa_GCMS {
+  position: absolute;
+
+  height: 1.8rem;
+  left: 736px;
+  top: 367px;
+
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-top: 1.5rem;
+
+  color: #827b7b;
+}
+.Spouse1_GCMS {
+  position: absolute;
+  width: 300px;
+  height: 29px;
+  left: 710px;
+  top: 535px;
+
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #827b7b;
+}
+.Radio_GCMS {
+  position: absolute;
+  left: 737px;
+  top: 620px;
+}
+.Radio_GCMS input {
+  display: inline-block;
+  background-color: #9dc164;
+  width: 31px;
+  height: 31px;
+  accent-color: #9dc164;
+}
+.Sapan1_GCMS {
+  position: absolute;
+  width: 44px;
+  height: 37px;
+  left: 60px;
+  top: 0px;
+
+  font-family: 'Imprima', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.Radio1_GCMS {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 993px;
+  top: 620px;
+}
+.Radio1_GCMS input {
+  display: inline-block;
+ 
+  width: 31px;
+  height: 31px;
+  accent-color: #ffffff;
+}
+.Span2_GCMS {
+  position: absolute;
+  width: 40px;
+  height: 37px;
+  left: 60px;
+  top: 0px;
+  font-family: 'Imprima', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.Given1_GCMS {
+  position: absolute;
+  width: 140px;
+  height: 1.8rem;
+  left: 736px;
+  top: 778px;
+
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-top: 1.5rem;
+
+  color: #827b7b;
+}

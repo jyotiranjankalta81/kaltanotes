@@ -1,0 +1,35 @@
+ .adminnavbar1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    padding: 1% 2%;
+    background: #AECB80;
+
+}
+
+ .adminnavbar1 span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+ .adminnavbar1 h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.adminnavbar1 svg {
+    width: 3.75;
+    height: 3.75;
+}

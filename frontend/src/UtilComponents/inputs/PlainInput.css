@@ -1,0 +1,36 @@
+.plain-input-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 100%;
+}
+.plain-input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #9DC164;
+    resize: none;
+    max-height: 8rem;
+    outline: none;
+    border-radius: 6px;
+}
+.plain-input-wrapper input[type="date"]{
+    max-height: 2.5rem;
+}
+.plain-input-wrapper input[type="date"]::before{
+    display: none;
+}
+.input-error{
+    font-size: 0.8rem;
+    color: red;
+}
+@media only screen and (max-width: 500px) {
+    .plain-input-wrapper span{
+        font-size: 0.9rem;
+    }
+    .plain-input{
+        font-size: 0.9rem;
+        max-height: 6rem;
+    }
+}
